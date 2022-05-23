@@ -10,7 +10,7 @@ class Hilo:
         #assigning state varriables that generates a random number from 1-13
         self.old_random = random.randint(1,13)
         self.new_random = random.randint(1,13)
-        self.init_score= 0
+        self.init_score= 300
 
     def verify(self):
         #a method that displays a random card and request a guess from the user

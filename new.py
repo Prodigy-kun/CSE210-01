@@ -53,30 +53,6 @@
 
 
 # main()
-import random
-oa = random.randint(0,100)
-a = random.randint(0,100)
-#mimicks score
-i = 10
-again = 'y'
-#enter the loop
-while again == 'y':
-    #first random
-    print(f'c={oa}')
-    #player guesses
-    b = input('guess if h or l')
-    #second random to become old random
-    print(f'c={a}')
-    #condition
-    if b == 'h' and a>oa:
-        i+=1
-        oa =a
-        a = random.randint(0,100)
-    else:
-        i-=1
-        oa = a
-        a = random.randint(0,100)
-        #score assertion
-    print(i)
-    #loop again?
-    again= input('again?')
+# import randoma []\
+a = [1, 2]
+print(a[-1])

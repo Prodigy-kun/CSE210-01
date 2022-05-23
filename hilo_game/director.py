@@ -7,7 +7,7 @@ class Director:
         # this condition makes the program to enter in the while loop
         self.is_playing='y'
         #the starting score of the player
-        self.init_score = 300
+        self.init_score = 0
  # a method that contains a loop that runs the game
     def display_hilo(self):
         #invoke the instance of the Hilo class
